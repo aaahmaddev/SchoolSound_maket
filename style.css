@@ -1,0 +1,383 @@
+:root {
+    --header-bg: #FFF2F3;
+    --main-bg-success: #96BB7C;
+    --white: #fff;
+    --text-drakblue: #252b42;
+    --text-grey: #737373;
+    --globe-box-shadow: 0px 13px 19px 0px #00000012;
+    --globe-line-bg:#E74040;
+    --globe-orange-color: #FFAB71;
+}
+
+.header-bg{
+    background-color: var(--header-bg);
+}
+
+.main-bg-success {
+    background-color: var(--main-bg-success);
+}
+
+.text-darkblue {
+    color: var(--text-drakblue);
+}
+
+.text-grey {
+    color: var(--text-grey);
+}
+
+.globe-box-shadow {
+    box-shadow: var(--globe-box-shadow);
+}
+
+.globe-line {
+    background-color: var(--globe-line-bg);
+}
+
+globe-orange {
+    color: var(--globe-orange-color);
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header {
+    background-color: var(--header-bg);
+}
+
+
+
+.header-buttons:first-child {
+    color: var(--main-bg-success)
+}
+
+.headeer-buttons:first-child:hover {
+    background-color: var(--main-bg-success);
+    color: var(--white);
+}
+
+.header-buttons:last-child {
+    background-color: var(--main-bg-success);
+}
+
+.header-link:hover {
+    color: var(--main-bg-success) !important;
+    transition: 0, 3s all;
+}
+
+/* hero */
+
+.hero {
+    background-color: var(--header-bg);
+}
+
+.hero-left {
+    margin-top: 138px;
+    margin-bottom: 138px;
+}
+
+.hero-left-subtitle {
+    color: var(--main-bg-success);
+}
+
+.hero-left-title {
+    color: var(--text-drakblue);
+    font-size: 58px;
+}
+
+.hero-left-text {
+    color: var(--text-grey);
+    font-size: 20px;
+}
+
+.hero-left-button:first-child {
+    background-color: var(--main-bg-success);
+    padding: 15px 38px;
+}
+
+.hero-left-button:last-child {
+    color: var(--main-bg-success);
+    border: 1px solid var(--main-bg-success) !important;
+    padding: 14px 38px;
+}
+
+.hero-left-button:first-child:hover {
+    background-color: transparent;
+    color: var(--main-bg-success) !important;
+    transition: 0.3s ease;
+    border-color: var(--main-bg-success) !important;
+}
+
+.hero-left-button:last-child:hover {
+    background-color: var(--main-bg-success);
+    color: var(--white);
+    border-color: var(--white) !important;
+    transition: 0.3s ease;
+}
+
+.hero-right {
+    background-image: url(./addoinatol/images/hero-cover-1.png);
+    background-size: cover;
+    height: 682px;
+}
+
+/* First Section */
+
+.first-section {
+    margin-top: 160px;
+    margin-bottom: 219px;
+}
+
+
+.first-section-line {
+    background-color: var(--globe-line-bg);
+    width: 94px;
+    height: 7px;
+}
+
+
+.first-section-title {
+    color: var(--text-drakblue);
+    font-size: 40px;
+    padding-top: 35px;
+}
+
+.first-section-text {
+    font-size: 14px;
+    color: var(--text-grey);
+}
+
+.first-section-btn,
+.third-sec-btn {
+    color: var(--main-bg-success);
+}
+
+.third-sec-btn {
+    background-color: var(--main-bg-success);
+    color: #fff;
+}
+
+.first-section-btn-icon{
+    margin-top: 3.5px;
+}
+
+
+
+@keyframes icon-anin {
+    0% {
+        transform: translateX(0)
+    }
+
+    100% {
+        transform: translateX(10px);
+    }
+}
+
+.first-section-right-box {
+    box-shadow: var(--globe-box-shadow);
+    padding: 35px 40px;
+}
+
+.first-section-right-img-box {
+    background-color: var(--main-bg-success);
+    padding: 22px 19px;
+    width: 70px;
+    height: 76px;
+}
+
+.first-sextion-right-title{
+    color: var(--text-drakblue);
+}
+
+.first-section-right-line {
+    width: 50px;
+    height: 2px;
+    background-color: var(--globe-line-bg);
+}
+
+.first-section-right-text {
+    color: var(--text-grey);
+}
+
+/* Second section */
+
+.second-sec{
+    margin-top: 160px;
+    margin-bottom: 219px;
+}
+
+
+.second-sec-line {
+    width: 94px;
+    height: 7px;
+background: var(--globe-line-bg);
+}
+
+.second-sec-title {
+    color: var(--text-drakblue);
+    font-size: 40px;
+}
+
+.second-sec-text {
+color: var(--text-grey);
+}
+
+.second-sec-left {
+    background-size: cover;
+    height: 652px;
+    background-image: url(./addoinatol/images/second-sec-photo.png);
+}
+
+
+/* Third Section */
+
+.third-sec {
+    margin-bottom: 160px;
+}
+
+.third-sec-subtitle {
+    color: var(--main-bg-success);
+}
+
+.third-sec-title {
+    color: var(--text-drakblue);
+    font-size: 40px;
+}
+
+.third-sec-text {
+color: var(--text-grey);
+}
+
+.third-sec-bottom {
+    margin-top: 96px;
+}
+
+.third-sec-card-left {
+    background-image: url(./addoinatol/images/product-cover-233\ sec-.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.third-sec-card-right {
+    background-image: url(./addoinatol/images/product-cover-232\ sec-.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.third-sec-card-subtitle {
+    color: var(--main-bg-success);
+}
+
+.third-sec-card-bedge {
+    background-color: var(--text-drakblue);
+}
+
+.third-sec-card-title {
+    color: var(--text-drakblue);
+}
+
+.third-sec-discount {
+    color: var(--globe-orange-color);
+}
+
+.third-sec-card {
+    box-shadow: var(--globe-box-shadow);
+}
+
+
+/* Fourth Sec */
+
+.fourth-sec {
+    margin-bottom: 160px;
+    margin-top: 160px;
+}
+
+.fourth-sec-img {
+    width: 128px;
+    height: 128px;
+}
+
+.fourth-sec-text {
+    color: var(--text-grey);
+}
+
+.fourth-sec-bottom {
+    margin-top: 96px;
+}
+
+/* Fifth Section */
+
+.fifth-sec {
+    margin-top: 160px;
+    margin-bottom: 160px;
+}
+
+.fifth-sec-icon-facebook:hover path{
+    fill: #1877f2;
+    transition: 0.3s ease;
+}
+
+.fifth-sec-icon-insta:hover path{
+    fill: #E1306C;
+    transition: 0.3s ease;
+}
+
+.fifth-sec-icon-x:hover path{
+    fill: #1D9BF0;
+    transition: 0.3s ease;
+}
+
+
+/* Sixth */
+
+.sixth-sec {
+    padding-top: 160px;
+    padding-bottom: 180px;
+    background-color: #fff2f3;
+}
+
+.sixth-sec-input {
+    margin-top: 80px;
+}
+
+.sixth-sec-input-main {
+    padding: 15px 20px;
+    width: 571px;
+    border: 1px solid #e6e6e6;
+    outline: none;
+    border-radius: 0px 5px 5px 0px !important;
+} 
+
+
+.sixth-sec-btn {
+    border: 1px solid #e6e6e6;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding: 15px 22px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+
+.sixth-sec-btn:hover {
+    background-color: var(--text-drakblue);
+}
+
+
+/* footer */
+
+.footer-container {
+    margin-top: 50px;
+}
+
+.footer-ul-list a:hover{
+    color: var(--main-bg-success) !important;
+    transition: 0.3 ease;
+}
+
+
+.footer-bottom {
+    background-color: #fafafa;
+}
+
+
+
